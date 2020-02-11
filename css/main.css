@@ -1,0 +1,274 @@
+@charset "UTF-8"
+
+/*basic reset*/
+
+
+
+body
+{
+	background-color: black;
+}
+
+a:link, a:visited 
+{ 
+ 	text-decoration:none;
+ 	color: #000; 	
+}
+
+a:hover 
+{ 
+	color: #BD2227;
+	text-decoration:underline; 
+}
+
+
+#container
+{
+	margin: 0 auto;
+	width: 612px;
+	font-family: 'Avenir', sans-serif;
+	background-color: #AE946E;
+
+}
+
+#mainHeader
+{
+	width: 612px;
+	height: 65px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: center;
+  	background-color: #AE946E;
+  	border-bottom: 
+}
+
+#logo
+{
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+#mainNav
+{
+	width: 309px;
+	height: 32px;
+	margin-top: 25px;
+	margin-left: 220px;
+	font-family: 'Avenir', sans-serif;
+
+}
+
+#promo img
+{
+	width: 612px;
+	height: 318px;
+}
+
+
+#productImages1
+{
+	width: 172px;
+  margin-top: 27px;
+  margin-left: 24px;
+}
+
+#productImages2
+{
+	width: 150px;
+  margin-top: 27px;
+  margin-left: 24px;
+}
+
+#productImages3
+{
+	width: 151px;
+  margin-top: 27px;
+  margin-left: 22px;
+}
+
+#products
+{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-auto-rows: minmax(150px,auto);
+  grid-gap: 10px;
+  max-width: 612px;
+  margin:0 auto;
+}
+
+#productText
+{
+  display: flex;
+  align-items: center;
+  margin:0 auto;
+  margin-top: 25px;
+  margin-bottom: 24px;
+	width: 562px;
+	height: 100px;
+  font-family: 'Avenir', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  background-color: white;
+}
+
+#mainFooter 
+{
+	width: 612px;
+	height: 65px;
+  	background-color: #AE946E;
+  	font-family: 'Avenir', sans-serif; 
+}
+
+#footerNav 
+{
+	width: 309px;
+	height: 32px;
+	margin-left: 280px;
+	margin-top: -40px;
+	font-family: 'Avenir', sans-serif;
+}
+
+#footerNavContact 
+{
+	width: 309px;
+	height: 32px;
+	margin-left: 280px;
+	margin-top: -40px;
+	font-family: 'Avenir', sans-serif;
+}
+
+#bottomLogo
+{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+.hidden
+{
+	display: none;
+}
+/*History Page*/
+
+#historic
+{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: minmax(125px,auto);
+  grid-gap: 0px;
+  max-width: 612px;
+  margin:0 auto;
+}
+
+#mainTitle
+{
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Avenir', sans-serif;
+}
+
+#productTextHist
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:0 auto;
+  margin-top: 25px;
+  width: 562px;
+  font-family: 'Avenir', sans-serif;
+  font-size: 16px;
+  line-height: 125%;
+  background-color: white;
+  padding:5px 5px 5px 5px;
+  margin-bottom: 50px;
+}
+
+/*Contact Page*/
+
+#mainContact {
+  width: 612px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#mainContact h2 {
+  margin:0 auto;
+  font-size: 30px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  padding: 8px 0px 8px 5px;
+  width: 940px;
+}
+
+#contactArea {
+  width: 469px;
+  margin-bottom: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+
+#contactText {
+  font-size: 21px;
+  margin-bottom: 30px;
+  width: 340px;
+  display: flex;
+  justify-content: center;
+}
+
+#contactForm {
+  margin-top: 30px;
+  justify-content: center;
+}
+
+fieldset {
+  border: none;
+  padding: 0px;
+  display: flex;
+  align-items:center;
+}
+
+
+input, textarea  {
+  font-size: 11px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+  height: 10px;
+  background-color: #efefef;
+  display: flex;
+  border: 1px solid #999;
+  color: #333;
+  align-items:center;
+}
+
+#comments {
+  width: 360px;
+  height: 200px;
+  display: flex;
+  align-items:center;
+}
+
+#submit {
+  width: 75px;
+  height: 30px;
+  text-align: center;
+  margin-top: 30px;
+  color: #FFF;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #000;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
